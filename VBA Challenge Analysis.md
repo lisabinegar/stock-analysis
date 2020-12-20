@@ -1,0 +1,10 @@
+# Analysis of Green Stock VBA Challenge
+
+### Overview of Project
+The purpose of this analysis was to provide for our client, Steve, an updated or refactored code script to loop through all the stock market data contained in the data set for two years, 2017 and 2018. The purpose of refactoring the initial code developed was to be able to analyze a much larger dataset, more quickly. 
+
+### Results
+Overall stock performance decreased in returns from 2017 to 2018, with two the exception of two companies that had positive gains. The first image below is a screenshot of the All Stocks (2017) analysis [https://github.com/lisabinegar/stock-analysis/blob/main/All%20stocks%20analysis%202017.png]. The second image is a screenshot of the All Stocks (2018) analysis [https://github.com/lisabinegar/stock-analysis/blob/main/All%20stocks%20analysis%202018.png]. The original script code had an execution time for both the 2017 and 2018 datasets of approximately 0.49 seconds, and the refactored script was much faster, with an execution time of 0.08 seconds! Compare sections of first the original script to the refactored script below it: [https://github.com/lisabinegar/stock-analysis/blob/main/All%20stocks%20analysis%20code%20screen%20shot.png] [https://github.com/lisabinegar/stock-analysis/blob/main/Refactored%20All%20Stocks%20analysis%20code%20screen%20shot.png]
+
+### Summary
+The primary advantages to refactoring code include a faster, more streamlined final product, with redundancies eliminated and an expanded ability to adapt. A possible disadvantage to refactoring an original script, from the perspective of a coding novice, is that it requires a more nuanced understanding of the principles of coding and the ability to “see” the possible shortcuts that are applicable. While refactoring the original VBA script made for a much faster execution time, and expanded the code to look through the entire stock market data set, as a novice coder I found it more difficult to get right. In fact, I did not realize until late in the refactoring that I could use the initial script as an outline and to improve upon! 
